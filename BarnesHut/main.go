@@ -1,5 +1,5 @@
 package main
-
+ 
 import (
 	"fmt"
 	"gifhelper"
@@ -82,4 +82,5 @@ func Push(g Galaxy, vx, vy float64) {
 		s.velocity.y += vy
 	}
 }
+
 
