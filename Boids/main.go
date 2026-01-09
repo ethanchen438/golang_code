@@ -1,6 +1,6 @@
 // Name: Ethan Chen
 // Date: 09/29/2025
-
+ 
 package main
 
 import (
@@ -114,3 +114,4 @@ func Check(err error) {
 		panic(err)
 	}
 }
+
