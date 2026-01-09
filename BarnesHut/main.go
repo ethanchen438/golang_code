@@ -1,6 +1,3 @@
-// Name: Ethan Chen
-// Date: 10/26/25
-
 package main
 
 import (
@@ -85,3 +82,4 @@ func Push(g Galaxy, vx, vy float64) {
 		s.velocity.y += vy
 	}
 }
+
