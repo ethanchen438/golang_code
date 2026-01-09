@@ -2,7 +2,7 @@
 // Date: 11/04/25
 
 package main
-
+ 
 import (
 	"fmt"
 	"gifhelper"
@@ -98,3 +98,4 @@ func main() {
 
 	fmt.Println("GIFs generated successfully")
 }
+
