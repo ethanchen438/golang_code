@@ -1,6 +1,3 @@
-// Name: Ethan Chen
-// Date: 10/26/25
-
 package main
 
 import "math"
@@ -263,4 +260,5 @@ func UpdatePosition(s Star, oldAcceleration, oldVelocity OrderedPair, timeStep f
 	newPosition.y = 0.5*oldAcceleration.y*(timeStep*timeStep) + oldVelocity.y*timeStep + s.position.y
 
 	return newPosition
+
 }
