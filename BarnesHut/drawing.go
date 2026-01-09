@@ -1,6 +1,3 @@
-// Name: Ethan Chen
-// Date: 10/26/25
-
 package main
 
 import (
@@ -58,4 +55,5 @@ func (u *Universe) DrawToCanvas(canvasWidth int, scalingFactor float64) image.Im
 	}
 	// we want to return an image!
 	return c.GetImage()
+
 }
