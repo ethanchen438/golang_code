@@ -1,5 +1,3 @@
-// Name: Ethan Chen
-// Date: 10/26/2025
 package main
 
 import (
@@ -813,3 +811,4 @@ func readVelocityInput(path string) velocityTest {
 		timeStep: timeStep,
 	}
 }
+
