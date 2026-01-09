@@ -1,6 +1,3 @@
-// Name: Ethan Chen
-// Date: 10/26/25
-
 package main
 
 import (
@@ -234,3 +231,4 @@ func ReadUniverse(filename string) (Universe, error) {
 
 	return universe, nil
 }
+
